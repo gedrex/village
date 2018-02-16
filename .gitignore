@@ -1,0 +1,15 @@
+#Compiled python modules
+*.pyc
+
+#Setuptools distribution folder
+/dist/
+
+#Python egg metadata
+/*.egg-info
+
+#venv
+/bin/
+/include/
+/lib/
+/lib64
+pip-selfcheck.json
