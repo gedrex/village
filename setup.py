@@ -8,11 +8,10 @@ setup(
     description="Still no comment. I'll figure out something.",
     url='http://github.com/gedrex/village',
     author='Gedrex',
-    packages=['village_master'],
+    packages=['village'],
     python_requires='>=3',
     install_requires=[
-        'yaml',
-        'ruamel.yaml',
-        ]
+        'ruamel.yaml'
+        ],
     zip_safe=False
 )
