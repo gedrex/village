@@ -1,54 +1,92 @@
----
-Resources:
-        - Wood:
-                Quantity: 0
-                Affects: ""
-                Producer: Woodman
-        - Stone:
-                Quantity: 0
-                Affects: ""
-                Producer: Stonecutter
-        - Coal:
-                Quantity: 0
-                Affects: ""
-                Producer: Miner
-        - "Fruits and Vegetables":
-                Quantity: 0
-                Affects: ""
-                Producer: "Floral Farmer"
-        - Flax:
-                Quantity: 0
-                Affects: ""
-                Producer: "Floral Farmer"
-        - Grain:
-                Quantity: 0
-                Affects: ""
-                Producer: "Floral Farmer"
-        - Meat:
-                Quantity: 0
-                Affects: ""
-                Producer: "Meat Farmer"
-        - Leather:
-                Quantity: 0
-                Affects: ""
-                Producer: "Meat Farmer"
-        - Iron:
-                Quantity: 0
-                Affects: ""
-                Producer: Miner
-        - Tools:
-                Quantity: 0
-                Affects: ""
-                Producer: Blacksmith
-        - Shoes:
-                Affects: ""
-                Producer: Shoemaker
-        - Clothings:
-                Affects: ""
-                Producer: Tailor
-
 Attributes:
-        - Quantity
-        - Affects
-        - Producer
-        - "Income Taxe"
+- Producer
+- Income Taxe
+- Affects
+- Effectivity
+- Prerequisities
+- Quantity
+Resources:
+- Wood:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Woodman
+    Quantity: 'Null'
+- Stone:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Stonecutter
+    Quantity: 'Null'
+- Coal:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Miner
+    Quantity: 'Null'
+- Fruits and Vegetables:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Floral Farmer
+    Quantity: 'Null'
+- Flax:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Floral Farmer
+    Quantity: 'Null'
+- Grain:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Floral Farmer
+    Quantity: 'Null'
+- Meat:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Meat Farmer
+    Quantity: 'Null'
+- Leather:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Meat Farmer
+    Quantity: 'Null'
+- Iron:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Miner
+    Quantity: 'Null'
+- Tools:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Blacksmith
+    Quantity: 'Null'
+- Shoes:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Shoemaker
+    Quantity: 'Null'
+- Clothings:
+    Affects: 'Null'
+    Effectivity: 'Null'
+    Income Taxe: 'Null'
+    Prerequisities: 'Null'
+    Producer: Tailor
+    Quantity: 'Null'
